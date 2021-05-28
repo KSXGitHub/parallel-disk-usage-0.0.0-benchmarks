@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg
     xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 958 32"
   >
     <rect
@@ -11,39 +12,25 @@
       height="32"
       fill="white"
     />
-    <svg
+    <text
       x="10"
-      y="0"
+      y="12.8"
       width="342"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        textLength="100%"
-        lengthAdjust="spacingAndGlyphs"
-        fill="black"
-        font-family="monospace"
-      >pdu --no-sort --max-depth=1 tmp.sample</text>
-    </svg><svg
+      textLength="342"
+      lengthAdjust="spacingAndGlyphs"
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >pdu --no-sort --max-depth=1 tmp.sample</text><text
       x="10"
-      y="16"
+      y="28.8"
       width="333"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        textLength="100%"
-        lengthAdjust="spacingAndGlyphs"
-        fill="black"
-        font-family="monospace"
-      >du --apparent-size --total tmp.sample</text>
-    </svg>
+      textLength="333"
+      lengthAdjust="spacingAndGlyphs"
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >du --apparent-size --total tmp.sample</text>
     <rect
       x="362"
       y="0"
@@ -57,33 +44,19 @@
       height="16"
       fill="green"
     />
-    <svg
+    <text
       x="884"
-      y="0"
+      y="12.8"
       width="54"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        fill="black"
-        font-family="monospace"
-      >0.124s</text>
-    </svg><svg
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >0.124s</text><text
       x="884"
-      y="16"
+      y="28.8"
       width="54"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        fill="black"
-        font-family="monospace"
-      >0.186s</text>
-    </svg>
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >0.186s</text>
   </svg>

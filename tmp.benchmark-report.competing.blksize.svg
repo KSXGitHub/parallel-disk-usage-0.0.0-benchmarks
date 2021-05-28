@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <svg
     xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 913 64"
   >
     <rect
@@ -11,71 +12,43 @@
       height="64"
       fill="white"
     />
-    <svg
+    <text
       x="10"
-      y="0"
+      y="12.8"
       width="297"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        textLength="100%"
-        lengthAdjust="spacingAndGlyphs"
-        fill="black"
-        font-family="monospace"
-      >pdu --quantity=blksize tmp.sample</text>
-    </svg><svg
+      textLength="297"
+      lengthAdjust="spacingAndGlyphs"
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >pdu --quantity=blksize tmp.sample</text><text
       x="10"
-      y="16"
+      y="28.8"
       width="135"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        textLength="100%"
-        lengthAdjust="spacingAndGlyphs"
-        fill="black"
-        font-family="monospace"
-      >dust tmp.sample</text>
-    </svg><svg
+      textLength="135"
+      lengthAdjust="spacingAndGlyphs"
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >dust tmp.sample</text><text
       x="10"
-      y="32"
+      y="44.8"
       width="225"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        textLength="100%"
-        lengthAdjust="spacingAndGlyphs"
-        fill="black"
-        font-family="monospace"
-      >dutree --usage tmp.sample</text>
-    </svg><svg
+      textLength="225"
+      lengthAdjust="spacingAndGlyphs"
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >dutree --usage tmp.sample</text><text
       x="10"
-      y="48"
+      y="60.8"
       width="117"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        textLength="100%"
-        lengthAdjust="spacingAndGlyphs"
-        fill="black"
-        font-family="monospace"
-      >du tmp.sample</text>
-    </svg>
+      textLength="117"
+      lengthAdjust="spacingAndGlyphs"
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >du tmp.sample</text>
     <rect
       x="317"
       y="0"
@@ -101,61 +74,33 @@
       height="16"
       fill="cyan"
     />
-    <svg
+    <text
       x="839"
-      y="0"
+      y="12.8"
       width="54"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        fill="black"
-        font-family="monospace"
-      >0.128s</text>
-    </svg><svg
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >0.128s</text><text
       x="839"
-      y="16"
+      y="28.8"
       width="54"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        fill="black"
-        font-family="monospace"
-      >0.869s</text>
-    </svg><svg
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >0.869s</text><text
       x="839"
-      y="32"
+      y="44.8"
       width="54"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        fill="black"
-        font-family="monospace"
-      >4.032s</text>
-    </svg><svg
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >4.032s</text><text
       x="839"
-      y="48"
+      y="60.8"
       width="54"
       height="16"
-    >
-      <text
-        x="0%"
-        y="80%"
-        width="100%"
-        height="100%"
-        fill="black"
-        font-family="monospace"
-      >0.185s</text>
-    </svg>
+      fill="black"
+      font-family="Consolas, Menlo, monospace"
+    >0.185s</text>
   </svg>
