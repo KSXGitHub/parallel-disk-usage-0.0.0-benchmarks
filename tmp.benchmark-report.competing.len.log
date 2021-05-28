@@ -1,0 +1,21 @@
+Benchmark #1: pdu --quantity=len tmp.sample
+  Time (mean ± σ):     126.0 ms ±   5.3 ms    [User: 95.7 ms, System: 148.8 ms]
+  Range (min … max):   119.4 ms … 139.6 ms    22 runs
+ 
+Benchmark #2: dust --apparent-size tmp.sample
+  Time (mean ± σ):     559.4 ms ±  15.7 ms    [User: 714.5 ms, System: 241.9 ms]
+  Range (min … max):   540.7 ms … 588.0 ms    10 runs
+ 
+Benchmark #3: dutree tmp.sample
+  Time (mean ± σ):      3.882 s ±  0.060 s    [User: 1.527 s, System: 2.354 s]
+  Range (min … max):    3.782 s …  3.955 s    10 runs
+ 
+Benchmark #4: du --apparent-size tmp.sample
+  Time (mean ± σ):     188.6 ms ±   7.2 ms    [User: 63.4 ms, System: 124.6 ms]
+  Range (min … max):   179.5 ms … 203.3 ms    15 runs
+ 
+Summary
+  'pdu --quantity=len tmp.sample' ran
+    1.50 ± 0.08 times faster than 'du --apparent-size tmp.sample'
+    4.44 ± 0.22 times faster than 'dust --apparent-size tmp.sample'
+   30.81 ± 1.37 times faster than 'dutree tmp.sample'

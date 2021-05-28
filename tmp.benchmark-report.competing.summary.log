@@ -1,0 +1,16 @@
+Benchmark #1: pdu --max-depth=1 tmp.sample
+  Time (mean ± σ):     125.4 ms ±   5.3 ms    [User: 90.2 ms, System: 155.6 ms]
+  Range (min … max):   119.2 ms … 137.9 ms    22 runs
+ 
+Benchmark #2: dutree --summary tmp.sample
+  Time (mean ± σ):     317.0 ms ±  11.9 ms    [User: 107.9 ms, System: 208.7 ms]
+  Range (min … max):   303.4 ms … 338.0 ms    10 runs
+ 
+Benchmark #3: du --apparent-size --total tmp.sample
+  Time (mean ± σ):     187.2 ms ±   4.8 ms    [User: 55.6 ms, System: 131.1 ms]
+  Range (min … max):   181.8 ms … 200.7 ms    14 runs
+ 
+Summary
+  'pdu --max-depth=1 tmp.sample' ran
+    1.49 ± 0.07 times faster than 'du --apparent-size --total tmp.sample'
+    2.53 ± 0.14 times faster than 'dutree --summary tmp.sample'

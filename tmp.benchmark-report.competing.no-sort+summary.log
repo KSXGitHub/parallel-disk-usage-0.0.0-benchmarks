@@ -1,0 +1,11 @@
+Benchmark #1: pdu --no-sort --max-depth=1 tmp.sample
+  Time (mean ± σ):     124.6 ms ±   4.5 ms    [User: 98.0 ms, System: 143.6 ms]
+  Range (min … max):   118.8 ms … 134.7 ms    23 runs
+ 
+Benchmark #2: du --apparent-size --total tmp.sample
+  Time (mean ± σ):     186.8 ms ±   7.5 ms    [User: 61.8 ms, System: 124.6 ms]
+  Range (min … max):   178.3 ms … 206.6 ms    15 runs
+ 
+Summary
+  'pdu --no-sort --max-depth=1 tmp.sample' ran
+    1.50 ± 0.08 times faster than 'du --apparent-size --total tmp.sample'

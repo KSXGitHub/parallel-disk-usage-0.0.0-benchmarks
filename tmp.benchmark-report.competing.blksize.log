@@ -1,0 +1,21 @@
+Benchmark #1: pdu --quantity=blksize tmp.sample
+  Time (mean ± σ):     128.8 ms ±   8.6 ms    [User: 88.5 ms, System: 163.2 ms]
+  Range (min … max):   119.4 ms … 150.9 ms    23 runs
+ 
+Benchmark #2: dust tmp.sample
+  Time (mean ± σ):     869.9 ms ±  23.9 ms    [User: 1.053 s, System: 0.229 s]
+  Range (min … max):   831.5 ms … 913.5 ms    10 runs
+ 
+Benchmark #3: dutree --usage tmp.sample
+  Time (mean ± σ):      4.032 s ±  0.137 s    [User: 1.614 s, System: 2.417 s]
+  Range (min … max):    3.865 s …  4.335 s    10 runs
+ 
+Benchmark #4: du tmp.sample
+  Time (mean ± σ):     185.7 ms ±   5.9 ms    [User: 65.0 ms, System: 120.3 ms]
+  Range (min … max):   178.5 ms … 196.5 ms    16 runs
+ 
+Summary
+  'pdu --quantity=blksize tmp.sample' ran
+    1.44 ± 0.11 times faster than 'du tmp.sample'
+    6.75 ± 0.49 times faster than 'dust tmp.sample'
+   31.31 ± 2.36 times faster than 'dutree --usage tmp.sample'

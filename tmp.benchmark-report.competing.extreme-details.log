@@ -1,0 +1,16 @@
+Benchmark #1: pdu --min-ratio=0 tmp.sample
+  Time (mean ± σ):     706.0 ms ±  11.3 ms    [User: 623.7 ms, System: 199.2 ms]
+  Range (min … max):   689.2 ms … 727.2 ms    10 runs
+ 
+Benchmark #2: dutree tmp.sample
+  Time (mean ± σ):      3.916 s ±  0.064 s    [User: 1.529 s, System: 2.387 s]
+  Range (min … max):    3.816 s …  4.014 s    10 runs
+ 
+Benchmark #3: du --apparent-size tmp.sample
+  Time (mean ± σ):     185.8 ms ±   5.5 ms    [User: 61.1 ms, System: 124.2 ms]
+  Range (min … max):   177.1 ms … 198.2 ms    16 runs
+ 
+Summary
+  'du --apparent-size tmp.sample' ran
+    3.80 ± 0.13 times faster than 'pdu --min-ratio=0 tmp.sample'
+   21.08 ± 0.72 times faster than 'dutree tmp.sample'

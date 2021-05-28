@@ -1,0 +1,16 @@
+[cols="<,>,>"]
+|===
+| Command | Mean [ms] | Min…Max [ms]
+
+| `pdu --top-down tmp.sample`
+| 123.5 ± 3.7
+| 118.5…133.5
+
+| `dust --apparent-size --reverse tmp.sample`
+| 540.8 ± 12.1
+| 525.9…559.6
+
+| `dutree tmp.sample`
+| 3879.6 ± 58.6
+| 3790.7…4003.5
+|===
